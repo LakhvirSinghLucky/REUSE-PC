@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../LOGO/Deskto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+li.drop-li:hover {
+    box-shadow: 7px 6px 20px -5px;
+  }
+  
+  .cat-inside li:hover {
+    box-shadow: -9px -10px 8px -5px gray;
+  }
+  a.lo-drop:hover {
+    box-shadow: 5px 5px 10px -1px;
+  }
+  
+.label{
+    font-size:  15px;;
+}
+.container{
+    width: 597px;
+    border: 2px solid rgb(184 184 184 / 20%);
+    padding: 0px 81px 0px 64px;
+    margin: -121px 15px -79px 19px;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 26px;
+    text-align:justify;
+    background-color: #c8c8c8;
+    box-shadow: 10px 12px 10px rgba(0, 0, 0, .2);
+}
+
+.container ::placeholder{
+    color:rgba(0, 0, 0, 0.735);
+    font-size: medium;
+    opacity:inherit;
+}
+.container a{
+    color: rgba(0, 67, 238, 0.74);
+    text-decoration: none;
+    font-size: 18px;
+}
+.container a:hover{
+text-decoration: underline;
+}
+.container h1 {
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight:600;
+    text-align: center;
+    }
+.container input{
+        text-align: center;
+        outline: none;
+        display: block;
+        border: 3px solid rgb(0 0 0 / 35%);
+        border-radius: 40px;
+        font-size: 22px;
+        color: black;
+        background: transparent;
+        padding: 12px 0px 12px 0px;
+        margin: 12px 0px 12px -23px;
+}
+
+input#profile_image {
+    color: #353535;
+    font-size: 17px;
+    padding: 8px 26px 12px 146px;
+}
+.container select{
+        outline: none;
+        font-size: 20px;
+        border: 3px solid rgb(0 0 0 / 35%);
+        text-align: start;
+        display: block;
+        border-radius: 40px;
+        color: rgba(0, 0, 0, 0.735);
+        background: transparent;
+        padding: 12px 0px 10px 23px;
+}
+.container textarea{
+        border: 3px solid rgb(0 0 0 / 35%);
+        border-radius: 15px;
+}
+
+button{
+    font-size: 18px;
+    color: rgba(0, 67, 238, 0.74);
+    border: 3px solid rgb(0 0 0 / 35%);
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+    outline:none;
+    text-decoration:none;
+    display: flex;
+    padding: 12px 207px 12px 187px;
+    margin: 9px 0px 9px 0px;
+}
+button:hover{
+    text-decoration: underline;
+}

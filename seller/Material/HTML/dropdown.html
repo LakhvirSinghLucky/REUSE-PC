@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REUSE-PC</title>
+  <link rel="icon" type="image/png" href="../LOGO/web-logo--4.png" />
+
+    <link rel="stylesheet" href="drop.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="top">
+        <div class="reuse-pic">
+          <img src="Pic/pc3.png" alt="REUSE-PC" id="reuse-pic" />
+          <div class="navbar">
+            <ul class="nav-flex">
+              <li class="menu">
+                <a><img class="icon" src="Pic/list.png" alt="Home" />MENU </a>
+                <div class="menu-outside">
+                  <?php
+                  if (isset($_SESSION['login']) && $_SESSION['login'] == true) {
+                    echo '<section id="wlcm">Hello - ' . $result['username'] . '</section>';
+                  } else {
+                    echo '<section id="wlcm">Welcome</section>';
+                  }
+                  ?>
+                  <ul class="menu-btn-inside">
+                    <hr />
+                    <li class="drop-li">
+                      <a href="welcome.php">
+                        <img src="Pic/home.png" width="28" height="25" /><b>Home</b>
+                      </a>
+                    </li>
+                    <hr />
+                    <li class="drop-li">
+                      <a href="login.php">
+                        <img src="Pic/user.svg" width="28" height="25" /><b>LogIn</b></a>
+                    </li>
+                    <hr />
+                    <li class="drop-li">
+                      <a href="regform.php">
+                        <img src="Pic/register.png" width="28" height="25" /><b>SignIn</b></a>
+                    </li>
+                    <hr />
+                    <div class="drop-cat">
+                      <li class="drop-li cursor">
+                        <a><img src="Pic/categories.png" width="28" height="25"/><b>Categories</b></a>
+                      </li>
+                      <hr />
+                      <div class="cat-out">
+                        <ul class="cat-inside" style="list-style-type: circle">
+                          <li>
+                            <a class="category-item" href="Gadgets/Electronics/electronics.php" target="_blank">Electronics</a>
+                          </li>
+                          <hr />
+                          <li>
+                            <a href="Gadgets/Robotics/Robotics & Sensors.php" target="_blank">Robotics & Sensors</a>
+                          </li>
+                          <hr />
+                          <li>
+                            <a href="Gadgets/Computer/Computer & Accessories.php" target="_blank">Computer & Appliances</a>
+                          </li>
+                          <hr />
+                          <li>
+                            <a href="Gadgets/Electronics/mobile accessories.php" target="_blank">Mobile & Accessories</a>
+                          </li>
+                          <hr/>
+                          <li><a href="viewcat.php">View all Categories</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <li class="drop-li">
+                      <a href="">
+                        <img src="../LOGO/box.png" width="28" height="25" /><b>Sell Your Products</b></a>
+                    </li>
+                    <hr/>
+                  </ul>
+                </div>
+              </li>
+              <li class="contact">
+                <a href="/contact.php">
+                  <img class="icon" src="Pic/customer-service.png" width="28" height="25"/>CONTACT</a>
+              </li>
+              <li class="faq">
+                <a href="/FAQ.php">
+                  <img class="icon" src="Pic/faq.png" width="28" height="25"/>FAQ</a>
+              </li>
+              <li class="about">
+                <a href="/about.php">
+                  <img class="icon" src="Pic/about.png" width="28" height="25"/>ABOUT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="search">
+            <ul class="search-flex">
+              <li>
+                <input type="search" name="search" id="search"
+                  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search in REUSE-PC"/>
+             </li>
+              <div class="prof">
+                <a style="height: 69px; display: inline-block">
+                  <img src="../LOGO/useradd.svg" class="profile" alt="PROFILE PIC" width="45px"/></a>
+                <div class="pic-drop">
+                  <a href="" class="lo-drop" target="_blank">
+                    <img src="../LOGO/user.svg" width="28" height="25" alt=""/>LogIn</a>
+                  <hr/>
+                  <a href="" class="lo-drop" target="_blank">
+                    <img src="../LOGO/register.png" width="28" height="25" alt=""/>SignIn</a>
+                  <hr/>
+                  <a href="" class="lo-drop" target="_blank">
+                    <img src="../LOGO/shopping-cart.png" width="28" height="25" alt=""/>My Cart</a>
+                  <hr/>
+                  <a href="" class="lo-drop" target="_blank">
+                    <img src="../LOGO/wishlist.png" width="28" height="25" alt=""/>Wishlist</a>
+                  <hr/>
+                  <a href="" class="lo-drop" target="_blank">
+                    <img src="../LOGO/languages.png" width="28" height="25" alt=""/>Language</a>
+                  <hr/>
+                  <a href="" class="lo-drop" target="_blank">
+                    <img src="../LOGO/setting.png" width="28" height="25" alt=""/>Settings</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

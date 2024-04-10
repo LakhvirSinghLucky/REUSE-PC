@@ -1,0 +1,507 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+sup#cart_no\.sup {
+    position: relative;
+    right: 1vh;
+    font-weight: bold;
+    bottom: 0.5vh;
+}
+
+form.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.background-interface {
+    background-color: #EBEBF1;
+    border-radius: 5px;
+    padding: 1px 0px 7px 0px;
+    height: 17.5vh;
+}
+
+.wish-heart img {
+    width: 2em;
+}
+img#Linkedin-Logo {
+  width: 5em;
+}
+li.drop-li:hover {
+  box-shadow: 7px 6px 20px -5px;
+}
+
+.cat-inside li:hover {
+  box-shadow: -9px -10px 8px -5px gray;
+}
+a.lo-drop:hover {
+  box-shadow: 5px 5px 10px -1px;
+}
+
+.btn_buy {
+    display: flex;
+    margin: 0px 0px;
+    justify-content: space-evenly;
+}
+
+.btn_buy a {
+    display: block;
+    padding: 7px 11px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.wish-heart {
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    padding: 0px 0px;
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+s#old_price {
+    font-size: 15px;
+    color: #e74747;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.elec-card-img {
+    height: 16em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#user-img {
+    width: 9vh;
+    border-radius: 50%;
+    height: 9vh;
+    box-shadow: 0px 0px 22px -6px gray;
+}
+
+a.profile {
+  display: block;
+  width: 4em;
+  height: 4em;
+  margin: 0px 0px 0px -21px;
+}
+.prof {
+  margin: -1vh 0em 0em -1.5em;
+}
+input#search-submit {
+  color: transparent;
+  border: transparent;
+  width: 4vh;
+  height: 5vh;
+  background-image: url("../../logo/search.png");
+  background-color: transparent;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 6vh;
+  top: 1vh;
+}
+
+input#search-submit:hover {
+  cursor: pointer;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241, 241, 241);
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(241, 241, 241);
+  position: fixed;
+  z-index: 50;
+  top: 0em;
+}
+.reuse-pic {
+  padding: 6px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  z-index: 1;
+}
+#reuse-pic {
+  width: 100%;
+  position: fixed;
+  top: 12px;
+  border-left: 90px solid white;
+}
+.navbar {
+  width: 40%;
+  height: 6%;
+  position: fixed;
+  z-index: 2;
+  top: 41px;
+}
+.nav-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  box-shadow: 3px 3px 8px -4px gray;
+  padding: 0px 5px 0px 10px;
+}
+.menu:hover {
+  border: 1px solid black;
+  padding: 6px;
+  background-color: bisque;
+}
+.menu:hover .menu-outside {
+  display: block;
+  box-shadow: 0px 0px 14px 5px gray;
+}
+li {
+  list-style: none;
+  height: 39px;
+  font-size: 21px;
+  font-family: monospace;
+}
+
+li#search-bar {
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+  position: relative;
+  color: black;
+  top: 7px;
+  width: 26px;
+  right: 6px;
+}
+.menu-outside {
+  display: none;
+  border: 2px solid #cdcaca;
+  background-color: whitesmoke;
+  position: relative;
+  z-index: 6;
+  right: 14px;
+  bottom: 86px;
+  width: 138%;
+  height: 36em;
+}
+#wlcm {
+  font-size: 29px;
+  margin: 6px;
+  margin-left: 15px;
+  font-family: system-ui;
+  position: absolute;
+  top: 10px;
+}
+.menu-btn-inside {
+  position: relative;
+  top: 50px;
+  margin: 10px;
+}
+.drop-li {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu-btn-inside b {
+  margin: 0px 0px 0px 8px;
+  color: black;
+  font-family: system-ui;
+  font-weight: 400;
+}
+.cursor {
+  cursor: pointer;
+}
+div.drop-cat:hover .cat-out {
+  display: block;
+  box-shadow: 4px 5px 25px 5px gray;
+}
+.cat-out {
+  display: none;
+  border: 2px solid #d8d7d7;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 13.9em;
+  top: 4em;
+  width: 13em;
+  height: 209px;
+}
+.cat-inside li {
+  margin: 5px 0px -4px 15px;
+}
+.cat-inside a {
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.contact {
+  box-shadow: 3px 3px 8px -4px gray;
+  padding: 0px 5px 0px 13px;
+  color: black;
+}
+.contact a {
+  color: black;
+}
+.contact:hover {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-color: whitesmoke;
+}
+.faq {
+  box-shadow: 3px 3px 8px -4px gray;
+  padding: 0px 5px 0px 13px;
+}
+.faq a {
+  color: black;
+}
+.faq:hover {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-color: whitesmoke;
+}
+.about {
+  box-shadow: 3px 3px 8px -4px gray;
+  padding: 0px 5px 0px 10px;
+}
+.about a {
+  color: black;
+}
+.about:hover {
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+.profile:hover {
+  border: 2px solid rgb(157, 156, 156);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.search {
+    display: inline;
+    position: fixed;
+    z-index: 2;
+    width: 20%;
+    height: 6%;
+    left: 69em;
+    top: 39px;
+}
+.search-flex {
+    display: flex;
+    position: relative;
+    right: 3vh;
+}
+#search {
+    width: 295px;
+    border: 2px solid #7d7d7d;
+    border-radius: 20px;
+    font-size: medium;
+    padding: 18px;
+    margin: 1vh;
+}
+#search:hover {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-color: whitesmoke;
+}
+.pic-drop {
+  display: none;
+  border: 2px solid #d8d7d7;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 14em;
+  top: 8vh;
+  width: 10em;
+  height: 16.8em;
+}
+.pic-drop a {
+  display: flex;
+  height: 43px;
+  align-content: center;
+  flex-wrap: wrap;
+}
+div.prof:hover .pic-drop {
+  display: block;
+  box-shadow: -5px 7px 18px -4px gray;
+}
+.lo-drop {
+  margin: 0px 0px 0px 8px;
+  font-family: system-ui;
+  color: black;
+  font-weight: 400;
+}
+.lo-drop img {
+  margin: 0px 10px 0px 0px;
+}
+
+img.social-img {
+  width: 49px;
+  margin-right: 18px;
+}
+
+a.up-btn-foot {
+  position: relative;
+  top: 10em;
+  left: 88em;
+  z-index: 1;
+}
+
+.footer {
+  position: relative;
+  background: #3586ff;
+  padding: 0px 2px 1px 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.social-icon,
+.menu-foot {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+  width: 29em;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.elec-container {
+  display: grid;
+  position: relative;
+  top: 3em;
+  grid-gap: 40px;
+  margin: 5em 2em;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  justify-content: center;
+}
+
+/* Style the card divs */
+.elec-card {
+  background-color: white;
+  padding: 10px;
+  padding-top: 0px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 24.6em;
+}
+
+.elec-card:hover {
+    border: 3px solid #ccc;
+    box-shadow: 2px 2px 15px 2px gray;
+}
+
+.elec-card.cate {
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+}
+
+/* Style the product images */
+.elec-card-img img {max-width: 100%;max-height: 15em;}
+
+/* Style the product names */
+.elec-card h3 {
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+
+h3#title-id-sub {
+    color: black;
+}
+
+/* Style the product prices */
+.elec-card p {
+  font-size: 21px;
+  border-radius: 7px;
+  color: #146a00;
+  margin: 17px 0px 15px 0px;
+  font-weight: bold;
+}
+
+/* Style the discount information */
+.elec-card span {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  color: #5d5d5d;
+}
+
+/* Style the delivery details */
+.elec-card p:last-child {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  color: gray;
+}
+
+p#pro-WATCH {
+  font-size: 16px;
+  font-family: math;
+  font-weight: 600;
+}
+
+p#pro-HEAD {
+  font-size: 16px;
+  font-family: math;
+  font-weight: 600;
+}
+
+p#pro-LAP {
+  font-size: 16px;
+  font-family: math;
+  font-weight: 600;
+}
+
+p#pro-CAM {
+  font-size: 16px;
+  font-family: math;
+  font-weight: 600;
+}

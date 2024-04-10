@@ -1,0 +1,74 @@
+
+img.social-img {
+    width: 49px;
+    margin-right: 18px;
+}
+
+a.up-btn-foot {
+    position: relative;
+    top: 10em;
+    left: 88em;
+    z-index: 1;
+}
+
+.footer {
+    position: relative;
+    background: #3586ff;
+    padding: 0px 2px 1px 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
+  img#Linkedin-Logo {
+    width: 5em;
+}
+  .social-icon,
+  .menu-foot {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+    width: 29em;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  

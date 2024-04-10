@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+s.security {
+    left: 29px;
+    color: #424242;
+    font-size: 24px;
+    position: relative;
+    top: 25px;
+    text-transform: uppercase;
+}
+img#Linkedin-Logo {
+    width: 5em;
+}
+li.drop-li:hover {
+    box-shadow: 7px 6px 20px -5px;
+  }
+  
+  .cat-inside li:hover {
+    box-shadow: -9px -10px 8px -5px gray;
+  }
+  a.lo-drop:hover {
+    box-shadow: 5px 5px 10px -1px;
+  }
+  
+.outer-box {
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../LOGO/Deskto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+.container {
+    text-align: center;
+    width: 36%;
+    height: 25em;
+    background-color: rgb(205 205 205 / 27%);
+    border: 2px solid #bdbec0;
+    backdrop-filter: blur(20px);
+    margin: 0 auto;
+    padding: 15px 20px 0px 20px;
+    display: flex;
+    border-radius: 2vh;
+    flex-direction: column;
+}
+hr {margin: 10px;height: 11px;background-color: #bdbec0;}
+
+
+h1#details {
+    color: #4f4f4f;
+}
+input.security:hover{
+    border: 2px solid #a7a7a7;
+}
+button {
+    height: 5vh;
+    border-radius: 7px;
+    border: 1px solid #27a444;
+    width: 27em;
+    background-color: #28a745;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover {
+background-color: #218838;
+}
+input.security {
+    border: 2px solid white;
+    margin: 15px;
+    height: 5vh;
+    float: inline-end;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+label.security {
+    float: left;
+    margin: 21px 0px 19px auto;
+    color: #424242;
+    font-size: 23px;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    height: 46em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errmsg {
+    color: red;
+}

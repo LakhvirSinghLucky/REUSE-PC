@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  transition: all 0.3s linear;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../LOGO/Deskto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(204 201 201);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+img#Linkedin-Logo {
+  width: 5em;
+}
+li.drop-li:hover {
+  box-shadow: 7px 6px 20px -5px;
+}
+
+.cat-inside li:hover {
+  box-shadow: -9px -10px 8px -5px gray;
+}
+a.lo-drop:hover {
+  box-shadow: 5px 5px 10px -1px;
+}
+
+li#search-bar {
+  display: flex;
+  flex-direction: row;
+}
+input#search-submit {
+  color: transparent;
+  border: transparent;
+  width: 4vh;
+  height: 5vh;
+  background-image: url("../logo/search.png");
+  background-color: transparent;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 6vh;
+  top: 1vh;
+}
+.prof {
+  margin: 0em 0em 0em -1em;
+}
+
+a.profile {
+  display: block;
+  width: 4em;
+  height: 4em;
+  margin: 0px 0px 0px -21px;
+}
+input#search-submit:hover {
+  cursor: pointer;
+}
+.wrapper {
+  width: 420px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  box-shadow: 10px 12px 10px rgba(0, 0, 0, 0.2);
+  background-color: #dadada;
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 20px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: black;
+}
+.wrapper .remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember label input {
+  accent-color: rgb(78, 78, 255);
+  text-decoration: none;
+}
+.remember a {
+  font-size: 17px;
+  color: rgb(78, 78, 255);
+  text-decoration: none;
+}
+.remember a:hover {
+  text-decoration: underline;
+}
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  border-radius: 40px;
+  box-shadow: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.register-link p a {
+  font-size: 17px;
+  color: rgb(78, 78, 255);
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+}
+.btn a {
+  font-size: 20px;
+  color: rgb(77, 77, 255);
+}
+#btn {
+  text-decoration: none;
+}
+#btn:hover {
+  text-decoration: underline;
+}
+
+/* For set country */
+
+.country-settings h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.save-country {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+}
+.save-country:hover {
+  text-decoration: underline;
+}
+.country-settings p {
+  text-align: center;
+}
+
+.country-settings select {
+  margin: 3vh 3vh;
+  padding: 9px;
+  text-align-last: center;
+  border: 1px solid #ccc;
+  font-size: larger;
+  border-radius: 30px;
+}
+
+.country-settings .button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.country-settings .save-country {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.country-settings .cancel {
+  background-color: #ccc;
+  color: #333;
+}
+
+.country-settings .note {
+  text-align: center;
+  margin: 15px 0vh;
+  font-style: italic;
+}

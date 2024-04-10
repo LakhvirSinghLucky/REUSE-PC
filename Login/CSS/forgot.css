@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../LOGO/Deskto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 520px;
+    text-align: justify;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 10px 12px 10px rgba(0, 0, 0, .2);
+    background-color: #d0cece;
+    padding: 0px 47px 0px 50px;
+    margin: 0px 22px 0px 22px;
+}
+
+div#fillemail {
+    display: none;
+}img#Linkedin-Logo {
+    width: 5em;
+}
+li.drop-li:hover {
+    box-shadow: 7px 6px 20px -5px;
+  }
+  
+  .cat-inside li:hover {
+    box-shadow: -9px -10px 8px -5px gray;
+  }
+  a.lo-drop:hover {
+    box-shadow: 5px 5px 10px -1px;
+  }
+  
+input#search-submit {
+    color: transparent;
+    border: transparent;
+    width: 4vh;
+    height: 5vh;
+    background-image: url("../logo/search.png");
+    background-color: transparent;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 6vh;
+    top: 1vh;
+}
+.prof {
+    margin: 0em 0em 0em -1em;
+}
+a.profile {
+    display: block;
+    width: 4em;
+    height: 4em;
+    margin: 0px 0px 0px -21px;
+}
+
+input#search-submit:hover {
+    cursor: pointer;
+}
+li#search-bar {
+    display: flex;
+    flex-direction: row;
+}
+.container input{
+    text-align: center;
+    margin: 10px -26px;
+    font-size: 17px;
+    outline: none;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: rgba(0, 0, 0, .7 );
+    padding: 12px 0px 12px 0px;
+}
+.container h1 h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.container h1{
+    font-size: 36px;
+    text-align: center;
+}
+.container select{
+    text-align: center;
+    outline: none;
+    /* align-items: center; */
+    font-size: medium;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: rgba(0, 0, 0, .7 );
+    font-weight:200;
+    margin: 10px -22px;
+    padding: 12px 87px 12px 84px;
+}
+.container ::placeholder{
+    color: rgba(0, 0, 0, .7 );
+    font-weight:200;
+}
+.container button{
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: rgb(78, 78, 255);
+    cursor: pointer;
+    margin: 10px -28px;
+    padding: 12px 230px 12px 214px;
+}
+
+button.verifybtn {
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: rgb(78, 78, 255);
+    cursor: pointer;
+    padding: 1.3vh 27vh;
+}
+.container button:hover{
+    text-decoration: underline;
+}
+.container a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(78, 78, 255);
+}
+
+#title{
+    font-size: 20px;
+    font-family: arial, sans-serif;   
+}
+
+.container1 {
+    width: 520px;
+    text-align: justify;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 10px 12px 10px rgba(0, 0, 0, .2);
+    background-color: #d0cece;
+    padding: 0px 47px 0px 50px;
+    margin: 0px 22px 0px 22px;
+}
+
+.container1 input {
+    text-align: center;
+    margin: 10px -26px;
+    font-size: 17px;
+    outline: none;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: rgba(0, 0, 0, .7);
+    padding: 12px 0px 12px 0px;
+}

@@ -1,0 +1,63 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+  }
+  
+li.drop-li:hover {
+  box-shadow: 7px 6px 20px -5px;
+}
+
+.cat-inside li:hover {
+  box-shadow: -9px -10px 8px -5px gray;
+}
+a.lo-drop:hover {
+  box-shadow: 5px 5px 10px -1px;
+}
+
+  /* Style the product images */
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Style the product names */
+  .card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Style the product prices */
+  .card p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: green;
+  }
+  
+  /* Style the discount information */
+  .card span {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: red;
+  }
+  
+  /* Style the delivery details */
+  .card p:last-child {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: gray;
+  }

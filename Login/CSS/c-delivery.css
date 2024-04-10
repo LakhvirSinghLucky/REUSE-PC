@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button#submit {
+    font-size: 22px;
+    color: white;
+    border: 3px solid rgb(0 0 0 / 35%);
+    border-radius: 40px;
+    background: #4a4a4a;
+    cursor: pointer;
+    text-decoration: none;
+    width: 8em;
+    height: 6vh;
+    margin-top: 1em;
+}
+
+.submit0 {
+    align-self: center;
+}
+
+.container textarea {
+    border: 3px solid rgb(0 0 0 / 35%);
+    border-radius: 15px;
+    margin-left: 5vh;
+    text-align: center;
+    height: 4vh;
+    background-color: transparent;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../LOGO/Deskto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.container input {text-align: center;outline: none;display: block;width: 19em;float: right;border: 3px solid rgb(0 0 0 / 35%);border-radius: 40px;font-size: 22px;color: black;background: transparent;margin: 0px 0px 0px -31px;}
+
+.common {
+    display: flex;
+    margin: 7px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+div#deliveryForm {
+    display: block;
+    background-color: #c8c8c8;
+    box-shadow: 10px 12px 10px rgba(0, 0, 0, 0.2);
+    width: 35em;
+}
